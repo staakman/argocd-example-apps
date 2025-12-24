@@ -1,7 +1,7 @@
 config:
   spec:
     destination:
-      server: https://kubernetes.default.svc
+      server: cid03082-cl01
     source:
       repoURL: https://github.com/staakman/argocd-example-apps
       targetRevision: master
