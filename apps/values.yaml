@@ -1,7 +1,7 @@
 config:
   spec:
     destination:
-      server: cid03082-cl01
+      server: https://87.233.24.24:6443
     source:
       repoURL: https://github.com/staakman/argocd-example-apps
       targetRevision: master
