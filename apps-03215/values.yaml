@@ -1,0 +1,18 @@
+config:
+  spec:
+    destination:
+      server: https://87.233.24.20:6443 
+    source:
+      repoURL: https://github.com/staakman/argocd-example-apps
+      targetRevision: master
+
+applications:
+  - name: guestbook
+  - name: helm-guestbook
+    tool:
+      helm:
+        releaseName: helm-guestbook
+  - name: helm-hooks
+  - name: kustomize-guestbook
+  - name: pre-post-sync
+  - name: sync-waves
